@@ -1,0 +1,179 @@
+/* You can add custom CSS and extend Boostrap styles in this file.  Remember, Bootstrap is just CSS at the end of the day! */
+
+body {
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  header#home {
+    background-image: 
+    linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.7)), url("https://preikestolen365.com/wp-content/uploads/2018/11/shutterstock_1153115168-blogghoved_v2.jpg");
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    margin-top: 0 !important;
+    padding: 20%;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(0, 0, 80);
+  }
+  
+  .navbar-dark .navbar-brand:hover {
+      color: orange; 
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+      color: orange; 
+  }
+  
+  .text-muted {
+    color: #d4d4d4;
+  }
+  
+  .avatar-img {
+    display: block;
+    margin: auto;
+    z-index: 1;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+    border: solid 15px rgba(0,0,0,0.3);
+  }
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #mission-section .column {
+      width: 100%;
+    }
+  }
+  
+  #mission-target,
+  #inspiration-target,
+  #contact-target,
+  #skills-target {
+    position: relative;
+    top: -70px;
+  }
+  
+  #mission-section {
+    padding: 10px 0;
+    background-color: #d4d4d4;
+  }
+  
+  #mission-section h1 {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #mission-section img {
+    float: left;
+    margin-right: 10px;
+    display: table-cell;
+    width: 100%;
+    height: auto;
+    clear: both;
+    vertical-align: middle;
+  }
+  
+  #mission-section p {
+    float: auto;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 20px;
+    /* overflow: auto; */
+  }
+  
+  #skills-section {
+    text-align: center;
+    padding: 10px 0; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #skills-section .row {
+    padding-bottom: 10px;
+    font-size: 50px;
+  }
+  
+  #skills-section i {
+    font-size: 60px;
+  }
+  
+  #skills-section p {
+    font-size: 17px;
+  }
+  
+  #inspiration-section {
+    padding: 10px 0 40px 0;
+  }
+  
+  #inspiration-section h1{
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  section#inspiration-section {
+    background-color: #d4d4d4;
+  }
+  
+  .carousel-item:after {
+    content:"";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.3);
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 40vh;
+    overflow: hidden;
+  }
+  
+  .carousel-caption {
+    z-index: 1;
+    bottom: 40px;
+  }
+  
+  #contact-section {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+  }
+  
+  #contact-section .row {
+    padding-bottom: 10px;
+    font-size: 30px;
+  }
+  
+  #contact-section a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  #contact-section i:hover {
+    color: orange; 
+  }
+  
+  .footer {
+    color: white;
+    background-color: #212529;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  
+  strong {
+    color: orange;
+  }
