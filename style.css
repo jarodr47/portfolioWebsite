@@ -89,6 +89,27 @@ body {
     font-size: 20px;
     /* overflow: auto; */
   }
+
+  #projects-section {
+    background-color: white;
+    text-align: center;
+    padding: 10px 0; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #projects-section .row {
+    padding-bottom: 10px;
+    font-size: 50px;
+  }
+  
+  #projects-section i {
+    font-size: 60px;
+  }
+  
+  #projects-section p {
+    font-size: 17px;
+  }
   
   #skills-section {
     text-align: center;
@@ -176,4 +197,12 @@ body {
   
   strong {
     color: orange;
+  }
+
+  .simon-image {
+    height: 80px;
+  }
+
+  #simon-div {
+    font-size: 17px;
   }
